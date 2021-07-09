@@ -1,0 +1,215 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.header {
+  background-color: white;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid lightgray;
+}
+
+.item1 {
+  background-color: white;
+  height: 60px;
+  margin-left: 20px;
+  display: flex;
+  color: grey;
+  align-items: center;
+  font-size: larger;
+  border-right: 1px solid lightgray;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.item2 {
+  background-color: white;
+  height: 60px;
+  margin-left: 10px;
+  display: flex;
+  color: grey;
+  align-items: center;
+  font-size: larger;
+  border-right: 1px solid lightgray;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.item3 {
+  background-color: white;
+  height: 60px;
+  margin-left: 10px;
+  display: flex;
+  color: grey;
+  align-items: center;
+  font-size: larger;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.dashboard {
+  background-color: white;
+  border-top: 0.5px solid lightgray;
+  display: flex;
+  color: grey;
+  font-size: larger;
+  height: 120px;
+  margin-top: 10px;
+  border-bottom: 0.5px solid lightgray;
+}
+
+.dashboard_general {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.dashboard_apm {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: black;
+  font-weight: 500;
+}
+
+.statsScripts {
+  background-color: white;
+  height: 120px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin-left: 20px;
+}
+.statsScripts_number {
+  margin-left: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.statsScripts_number_TOTAL {
+  margin-left: 20px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.statsIssues {
+  background-color: white;
+  height: 120px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin-left: 20px;
+}
+
+.statsIssues_number {
+  margin-left: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.statsIssues_number_TOTAL {
+  margin-left: 20px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.statsChart1 {
+  background-color: white;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid lightgray;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.statsChart2 {
+  background-color: white;
+  height: 300px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin-left: 20px;
+}
+
+.container_tabel {
+  display: flex;
+  flex-direction: row;
+  font-size: larger;
+  margin-top: 5px;
+}
+
+.ID {
+  margin-left: 15px;
+}
+
+.ScriptName {
+  margin-left: 30px;
+}
+
+.Status {
+  margin-left: 50px;
+}
+
+.Error {
+  margin-left: 20px;
+}
+
+.Elapsed {
+  margin-left: 80px;
+}
+
+.RunTime {
+  margin-left: 45px;
+}
+
+.statsChart3 {
+  background-color: white;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid lightgray;
+  margin-left: 20px;
+}
+.statsChart4 {
+  background-color: white;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid lightgray;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.DATA {
+  /* height: 0; */
+  background-color: white;
+  margin-top: 20px;
+  border-top: 1px solid lightgray;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-items: start;
+}
+
+/*  */
+
+.logout {
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.logo {
+  font-size: larger;
+  color: black;
+  border: 5px solid black;
+  margin-left: 20px;
+}
+
+.divider {
+  color: black;
+}

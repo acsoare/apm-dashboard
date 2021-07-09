@@ -1,0 +1,37 @@
+.container {
+  width: 50vw;
+  margin-left: 20px;
+  min-height: 100vh;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  overflow: hidden;
+  justify-content: space-between;
+  display: flex;
+  background-color: white;
+}
+
+.scriptsTotal {
+  max-width: 170px;
+  min-width: 200px;
+  max-height: 100px;
+  margin-left: 5px;
+  flex-grow: 1;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  vertical-align: center;
+  height: 150px;
+  background-color: white;
+}
+
+.uptime {
+  max-width: 170px;
+  min-width: 450px;
+  max-height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: center;
+  height: 150px;
+  background-color: white;
+}
